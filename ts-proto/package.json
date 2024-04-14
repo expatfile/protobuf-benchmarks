@@ -1,0 +1,27 @@
+{
+  "name": "ts-proto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node ./build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@grpc/grpc-js": "^1.10.6",
+    "protobufjs": "^7.2.6",
+    "tinybench": "^2.7.0",
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/microtime": "^2.1.2",
+    "@types/node": "^20.12.7",
+    "grpc-tools": "^1.12.4",
+    "ts-proto": "^1.172.0",
+    "typescript": "^5.4.5"
+  }
+}

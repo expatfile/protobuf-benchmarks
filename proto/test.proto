@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+package expatfile.test.v1;
+
+message Input {
+  string input_name = 1;
+  string value = 2;
+  string type = 3;
+  string source = 4;
+}
+
+message TestServiceReadInputsRequest {
+  string user_id = 1;
+  string tax_year = 2;
+  string form_name = 3;
+
+  repeated string input_names = 4;
+}
+
+message TestServiceReadInputsResponse {
+  repeated Input inputs = 1;
+}
+
+message TestServiceUpdateInputsRequest {
+  string user_id = 1;
+  string tax_year = 2;
+  string form_name = 3;
+
+  repeated Input inputs = 4;
+}
+
+message TestServiceUpdateInputsResponse {}
+
+service TestService {
+  rpc ReadInputs(TestServiceReadInputsRequest) returns (TestServiceReadInputsResponse);
+  rpc UpdateInputs(TestServiceUpdateInputsRequest) returns (TestServiceUpdateInputsResponse);
+}

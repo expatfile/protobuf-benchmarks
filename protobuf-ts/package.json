@@ -1,0 +1,27 @@
+{
+  "name": "protobuf-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node ./build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@grpc/grpc-js": "^1.10.6",
+    "@protobuf-ts/runtime": "^2.9.4",
+    "@protobuf-ts/runtime-rpc": "^2.9.4",
+    "tinybench": "^2.6.0",
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "@protobuf-ts/plugin": "^2.9.4",
+    "@protobuf-ts/protoc": "^2.9.4",
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  }
+}
