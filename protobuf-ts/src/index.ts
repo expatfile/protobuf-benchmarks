@@ -12,7 +12,9 @@ async function runTestCalls(
   const server = await startServer(port);
   const client = createClient(port);
 
-  const bench = new Bench();
+  const bench = new Bench({
+    time: 10000,
+  });
 
   bench.add(testName, async () => {
     await testFn(client);

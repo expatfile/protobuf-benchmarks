@@ -15,11 +15,18 @@ pnpm test # Run the benchmarks
 
 ## Results
 
-| Task Name                      | ops/sec | Average Time (ns)   | Margin | Samples |
-| ------------------------------ | ------- | ------------------- | ------ | ------- |
-| ts-proto (readInputs)          | 6,430   | 155,510.26492537226 | ±1.05% | 3,216   |
-| google-protobuf (readInputs)   | 5,943   | 168,251.10464333766 | ±1.14% | 2,972   |
-| protobuf-ts (readInputs)       | 5,225   | 191,360.5158821272  | ±1.08% | 2,613   |
-| ts-proto (updateInputs)        | 6,341   | 157,681.42730999773 | ±0.62% | 3,171   |
-| google-protobuf (updateInputs) | 5,861   | 170,617.70965540933 | ±0.65% | 2,931   |
-| protobuf-ts (updateInputs)     | 4,316   | 231,655.7512737348  | ±0.88% | 2,159   |
+### Read inputs
+
+| Library         | ops/sec | Average Time (ns)   | Margin | Samples |
+| --------------- | ------- | ------------------- | ------ | ------- |
+| ts-proto        | 7,734   | 129,287.23195999817 | ±1.26% | 100,000 |
+| google-protobuf | 7,336   | 136,307.68187999903 | ±1.33% | 100,000 |
+| protobuf-ts     | 6,266   | 159,570.68275000344 | ±1.17% | 100,000 |
+
+### Update inputs
+
+| Library         | ops/sec | Average Time (ns)   | Margin | Samples |
+| --------------- | ------- | ------------------- | ------ | ------- |
+| ts-proto        | 6,384   | 156,627.98241999987 | ±1.06% | 100,000 |
+| google-protobuf | 5,882   | 170,002.66671999844 | ±0.64% | 100,000 |
+| protobuf-ts     | 4,509   | 221,742.0894100056  | ±0.75% | 100,000 |
