@@ -15,12 +15,12 @@ import {
 } from "./proto/test";
 
 export const readInputsCall = (client: TestServiceClient) => {
-  const request = TestServiceReadInputsRequest.create({
+  const request: TestServiceReadInputsRequest = {
     userId: faker.string.uuid(),
     taxYear: faker.number.int({ min: 2018, max: 2023 }).toString(),
     formName: faker.helpers.arrayElement(MOCK_FORM_NAMES),
     inputNames: MOCK_INPUT_NAMES,
-  });
+  };
 
   const metadata = new Metadata();
 
@@ -37,7 +37,7 @@ export const readInputsCall = (client: TestServiceClient) => {
 };
 
 export const updateInputsCall = (client: TestServiceClient) => {
-  const request = TestServiceUpdateInputsRequest.create({
+  const request: TestServiceUpdateInputsRequest = {
     userId: faker.string.uuid(),
     taxYear: faker.number.int({ min: 2018, max: 2023 }).toString(),
     formName: faker.helpers.arrayElement(MOCK_FORM_NAMES),
@@ -47,7 +47,7 @@ export const updateInputsCall = (client: TestServiceClient) => {
       type: faker.helpers.arrayElement(MOCK_INPUT_TYPES),
       source: faker.helpers.arrayElement(MOCK_INPUT_SOURCES),
     })),
-  });
+  };
 
   const metadata = new Metadata();
 

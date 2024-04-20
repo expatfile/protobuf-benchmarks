@@ -62,5 +62,5 @@ echo "\t└>  $SRC_DEST_DIR"
 $GRPC_TOOLS_NODE_PROTOC_PATH \
     --plugin=$PROTOC_GEN_TS_PROTO_PATH \
     --ts_proto_out=$SRC_DEST_DIR \
-    --ts_proto_opt=outputServices=grpc-js \
+    --ts_proto_opt=removeEnumPrefix=true,outputServices=grpc-js \
     -I $PROTO_DIR $PROTO_FILES

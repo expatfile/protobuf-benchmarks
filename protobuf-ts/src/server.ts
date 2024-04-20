@@ -33,9 +33,9 @@ const readInputs: handleUnaryCall<
     });
   });
 
-  const response = TestServiceReadInputsResponse.create({
+  const response: TestServiceReadInputsResponse = {
     inputs,
-  });
+  };
 
   callback(null, response);
 };
@@ -53,7 +53,7 @@ const updateInputs: handleUnaryCall<
 
   inputs.forEach(() => {});
 
-  const response = TestServiceUpdateInputsResponse.create();
+  const response: TestServiceUpdateInputsResponse = {};
 
   callback(null, response);
 };

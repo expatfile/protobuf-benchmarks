@@ -32,9 +32,9 @@ const readInputs: handleUnaryCall<
     });
   });
 
-  const response = TestServiceReadInputsResponse.fromPartial({
+  const response: TestServiceReadInputsResponse = {
     inputs,
-  });
+  };
 
   callback(null, response);
 };
@@ -52,7 +52,7 @@ const updateInputs: handleUnaryCall<
 
   inputs.forEach(() => {});
 
-  const response = TestServiceUpdateInputsResponse.fromPartial({});
+  const response: TestServiceUpdateInputsResponse = {};
 
   callback(null, response);
 };
