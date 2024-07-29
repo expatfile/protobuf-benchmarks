@@ -21,7 +21,7 @@
   "devDependencies": {
     "@protobuf-ts/plugin": "^2.9.4",
     "@protobuf-ts/protoc": "^2.9.4",
-    "@types/node": "^20.12.7",
+    "@types/node": "^22.0.0",
     "typescript": "^5.4.5"
   }
 }

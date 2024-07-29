@@ -20,7 +20,7 @@
   "devDependencies": {
     "@types/google-protobuf": "^3.15.12",
     "@types/microtime": "^2.1.2",
-    "@types/node": "^20.12.7",
+    "@types/node": "^22.0.0",
     "grpc-tools": "^1.12.4",
     "grpc_tools_node_protoc_ts": "^5.3.3",
     "typescript": "^5.4.5"

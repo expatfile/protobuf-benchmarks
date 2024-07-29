@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@types/microtime": "^2.1.2",
-    "@types/node": "^20.12.7",
+    "@types/node": "^22.0.0",
     "grpc-tools": "^1.12.4",
     "ts-proto": "^1.172.0",
     "typescript": "^5.4.5"
