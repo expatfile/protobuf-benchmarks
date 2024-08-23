@@ -21,7 +21,7 @@
     "@types/microtime": "^2.1.2",
     "@types/node": "^22.5.0",
     "grpc-tools": "^1.12.4",
-    "ts-proto": "^1.181.2",
+    "ts-proto": "^2.0.3",
     "typescript": "^5.5.4"
   }
 }

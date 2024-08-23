@@ -12,16 +12,16 @@
   "license": "ISC",
   "dependencies": {
     "@faker-js/faker": "^8.4.1",
-    "@grpc/grpc-js": "^1.10.6",
+    "@grpc/grpc-js": "^1.11.1",
     "@protobuf-ts/runtime": "^2.9.4",
     "@protobuf-ts/runtime-rpc": "^2.9.4",
-    "tinybench": "^2.6.0",
-    "tslib": "^2.6.2"
+    "tinybench": "^2.9.0",
+    "tslib": "^2.6.3"
   },
   "devDependencies": {
     "@protobuf-ts/plugin": "^2.9.4",
     "@protobuf-ts/protoc": "^2.9.4",
-    "@types/node": "^20.12.7",
-    "typescript": "^5.4.5"
+    "@types/node": "^22.5.0",
+    "typescript": "^5.5.4"
   }
 }
