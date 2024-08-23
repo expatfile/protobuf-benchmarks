@@ -34,13 +34,16 @@ importers:
         specifier: ^1.12.4
         version: 1.12.4
       ts-proto:
-        specifier: ^1.181.2
-        version: 1.181.2
+        specifier: ^2.0.0
+        version: 2.0.3
       typescript:
         specifier: ^5.5.4
         version: 5.5.4
 
 packages:
+
+  '@bufbuild/protobuf@2.0.0':
+    resolution: {integrity: sha512-sw2JhwJyvyL0zlhG61aDzOVryEfJg2PDZFSV7i7IdC7nAE41WuXCru3QWLGiP87At0BMzKOoKO/FqEGoKygGZQ==}
 
   '@faker-js/faker@8.4.1':
     resolution: {integrity: sha512-XQ3cU+Q8Uqmrbf2e0cIC/QN43sTBSC8KF12u29Mb47tWrt2hAgBXSgpZMj4Ao8Uk0iJcU99QsOCaIL8934obCg==}
@@ -357,8 +360,8 @@ packages:
   ts-proto-descriptors@1.16.0:
     resolution: {integrity: sha512-3yKuzMLpltdpcyQji1PJZRfoo4OJjNieKTYkQY8pF7xGKsYz/RHe3aEe4KiRxcinoBmnEhmuI+yJTxLb922ULA==}
 
-  ts-proto@1.181.2:
-    resolution: {integrity: sha512-knJ8dtjn2Pd0c5ZGZG8z9DMiD4PUY8iGI9T9tb8DvGdWRMkLpf0WcPO7G+7cmbZyxvNTAG6ci3fybEaFgMZIvg==}
+  ts-proto@2.0.3:
+    resolution: {integrity: sha512-nh1pCkdWy5gKGjNaYQZcKMDlWqaeQ8Kg6kma8b/EkLbI1zzg3fhIBu4KA+dR5NqosLkqcZxLMGDZJ/0T1b3prw==}
     hasBin: true
 
   tslib@2.6.3:
@@ -407,6 +410,8 @@ packages:
     engines: {node: '>=12'}
 
 snapshots:
+
+  '@bufbuild/protobuf@2.0.0': {}
 
   '@faker-js/faker@8.4.1': {}
 
@@ -719,10 +724,10 @@ snapshots:
       long: 5.2.3
       protobufjs: 7.4.0
 
-  ts-proto@1.181.2:
+  ts-proto@2.0.3:
     dependencies:
+      '@bufbuild/protobuf': 2.0.0
       case-anything: 2.1.13
-      protobufjs: 7.4.0
       ts-poet: 6.8.1
       ts-proto-descriptors: 1.16.0
 
