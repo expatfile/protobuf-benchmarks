@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@faker-js/faker": "^8.4.1",
+    "@faker-js/faker": "^9.0.0",
     "@grpc/grpc-js": "^1.11.1",
     "google-protobuf": "^3.21.4",
     "tinybench": "^2.9.0",
