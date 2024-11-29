@@ -11,18 +11,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@faker-js/faker": "^8.4.1",
-    "@grpc/grpc-js": "^1.11.1",
+    "@faker-js/faker": "^9.2.0",
+    "@grpc/grpc-js": "^1.12.2",
     "google-protobuf": "^3.21.4",
-    "tinybench": "^2.9.0",
-    "tslib": "^2.6.3"
+    "tinybench": "^3.0.6",
+    "tslib": "^2.8.1"
   },
   "devDependencies": {
     "@types/google-protobuf": "^3.15.12",
     "@types/microtime": "^2.1.2",
-    "@types/node": "^22.5.0",
+    "@types/node": "^22.10.1",
     "grpc-tools": "^1.12.4",
     "grpc_tools_node_protoc_ts": "^5.3.3",
-    "typescript": "^5.5.4"
+    "typescript": "^5.7.2"
   }
 }

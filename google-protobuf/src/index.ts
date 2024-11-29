@@ -20,7 +20,6 @@ async function runTestCalls(
     await testFn(client);
   });
 
-  await bench.warmup();
   await bench.run();
 
   console.table(bench.table());

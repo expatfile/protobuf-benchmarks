@@ -11,17 +11,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@faker-js/faker": "^8.4.1",
-    "@grpc/grpc-js": "^1.11.1",
+    "@faker-js/faker": "^9.2.0",
+    "@grpc/grpc-js": "^1.12.2",
     "@protobuf-ts/runtime": "^2.9.4",
     "@protobuf-ts/runtime-rpc": "^2.9.4",
-    "tinybench": "^2.9.0",
-    "tslib": "^2.6.3"
+    "tinybench": "^3.0.6",
+    "tslib": "^2.8.1"
   },
   "devDependencies": {
     "@protobuf-ts/plugin": "^2.9.4",
     "@protobuf-ts/protoc": "^2.9.4",
-    "@types/node": "^22.5.0",
-    "typescript": "^5.5.4"
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
   }
 }
