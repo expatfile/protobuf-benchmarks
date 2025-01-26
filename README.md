@@ -7,11 +7,10 @@ This project contains benchmarks for the [ts-proto](https://www.npmjs.com/packag
 To run the benchmarks, clone this repository and run the following commands:
 
 ```bash
-pnpm install # Install dependencies
-./gen_grpc.sh # Generate the gRPC files
-pnpm build # Build the typescript files
-pnpm test # Run the benchmarks
+./run_all.sh
 ```
+
+This script will install the dependencies and run the benchmarks for each library.
 
 ## Results
 
