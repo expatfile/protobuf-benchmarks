@@ -19,7 +19,7 @@ importers:
         version: 1.12.5
       tinybench:
         specifier: ^3.1.0
-        version: 3.1.0
+        version: 3.1.1
       tslib:
         specifier: ^2.8.1
         version: 2.8.1
@@ -2295,8 +2295,8 @@ packages:
     resolution: {integrity: sha512-wMctrWD2HZZLuIlchlkE2dfXJh7J2KDI9Dwl+2abPYg0mswQHfOAyQW3jJg1pY5VfttSINZuKcXoB3FGypVklA==}
     engines: {node: '>=8'}
 
-  tinybench@3.1.0:
-    resolution: {integrity: sha512-Km+oMh2xqNCxuyoUsqbRmHgFSd8sATh7v7xreP+kHN6x67w28Pawr83WmBxcaORvxkc0Ex6zgqK951yBnTFaaQ==}
+  tinybench@3.1.1:
+    resolution: {integrity: sha512-74pmf47HY/bHqamcCMGris+1AtGGsqTZ3Hc/UK4QvSmRuf/9PIF9753+c8XBh7JfX2r9KeZtVjOYjd6vFpc0qQ==}
     engines: {node: '>=18.0.0'}
 
   tmp@0.0.33:
@@ -5257,7 +5257,7 @@ snapshots:
 
   timestring@6.0.0: {}
 
-  tinybench@3.1.0: {}
+  tinybench@3.1.1: {}
 
   tmp@0.0.33:
     dependencies:
