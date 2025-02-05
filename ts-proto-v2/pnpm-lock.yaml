@@ -29,7 +29,7 @@ importers:
         version: 2.1.2
       '@types/node':
         specifier: ^22.10.10
-        version: 22.10.10
+        version: 22.13.1
       clinic:
         specifier: ^13.0.0
         version: 13.0.0
@@ -164,8 +164,8 @@ packages:
   '@types/microtime@2.1.2':
     resolution: {integrity: sha512-d5odaV/0jPwfehN1t+y7+TcbGxECQLtl7mVETpMaYA0SnlhyKQKgWPCRetbSJVP7i2Kzx8CuTDgDs2kjS1MCOw==}
 
-  '@types/node@22.10.10':
-    resolution: {integrity: sha512-X47y/mPNzxviAGY5TcYPtYL8JsY3kAq2n8fMmKoRCxq/c4v4pyGNCzM2R6+M5/umG4ZfHuT+sgqDYqWc9rJ6ww==}
+  '@types/node@22.13.1':
+    resolution: {integrity: sha512-jK8uzQlrvXqEU91UxiK5J7pKHyzgnI1Qnl0QDHIgVGuolJhRb9EEl28Cj9b3rGR8B2lhFCtvIm5os8lFnO/1Ew==}
 
   '@types/offscreencanvas@2019.3.0':
     resolution: {integrity: sha512-esIJx9bQg+QYF0ra8GnvfianIY8qWB0GBx54PK5Eps6m+xTj86KLavHv6qDhzKcu5UUOgNfJ2pWaIIV7TRUd9Q==}
@@ -2797,13 +2797,13 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 22.10.10
+      '@types/node': 22.13.1
 
   '@types/long@4.0.2': {}
 
   '@types/microtime@2.1.2': {}
 
-  '@types/node@22.10.10':
+  '@types/node@22.13.1':
     dependencies:
       undici-types: 6.20.0
 
@@ -2811,7 +2811,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 22.10.10
+      '@types/node': 22.13.1
 
   '@types/seedrandom@2.4.34': {}
 
@@ -4757,7 +4757,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 22.10.10
+      '@types/node': 22.13.1
       long: 5.2.4
 
   protocol-buffers-encodings@1.2.0:
