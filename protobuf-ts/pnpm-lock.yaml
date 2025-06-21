@@ -16,7 +16,7 @@ importers:
         version: 1.12.5
       '@protobuf-ts/runtime':
         specifier: ^2.9.4
-        version: 2.9.4
+        version: 2.11.1
       '@protobuf-ts/runtime-rpc':
         specifier: ^2.9.4
         version: 2.9.4
@@ -45,6 +45,7 @@ packages:
   '@faker-js/faker@9.4.0':
     resolution: {integrity: sha512-85+k0AxaZSTowL0gXp8zYWDIrWclTbRPg/pm/V0dSFZ6W6D4lhcG3uuZl4zLsEKfEvs69xDbLN2cHQudwp95JA==}
     engines: {node: '>=18.0.0', npm: '>=9.0.0'}
+    deprecated: Please update to a newer version
 
   '@grpc/grpc-js@1.12.5':
     resolution: {integrity: sha512-d3iiHxdpg5+ZcJ6jnDSOT8Z0O0VMVGy34jAnYLUX8yd36b1qn8f1TwOA/Lc7TsOh03IkPJ38eGI5qD2EjNkoEA==}
@@ -72,8 +73,8 @@ packages:
   '@protobuf-ts/runtime-rpc@2.9.4':
     resolution: {integrity: sha512-y9L9JgnZxXFqH5vD4d7j9duWvIJ7AShyBRoNKJGhu9Q27qIbchfzli66H9RvrQNIFk5ER7z1Twe059WZGqERcA==}
 
-  '@protobuf-ts/runtime@2.9.4':
-    resolution: {integrity: sha512-vHRFWtJJB/SiogWDF0ypoKfRIZ41Kq+G9cEFj6Qm1eQaAhJ1LDFvgZ7Ja4tb3iLOQhz0PaoPnnOijF1qmEqTxg==}
+  '@protobuf-ts/runtime@2.11.1':
+    resolution: {integrity: sha512-KuDaT1IfHkugM2pyz+FwiY80ejWrkH1pAtOBOZFuR6SXEFTsnb/jiQWQ1rCIrcKx2BtyxnxW6BWwsVSA/Ie+WQ==}
 
   '@protobufjs/aspromise@1.1.2':
     resolution: {integrity: sha512-j+gKExEuLmKwvz3OgROXtrJ2UG2x8Ch2YZUxahh+s1F2HZ+wAceUNLkvy6zKCPVRkU++ZWQrdxsUeQXmcg4uoQ==}
@@ -220,14 +221,14 @@ snapshots:
 
   '@protobuf-ts/plugin-framework@2.9.4':
     dependencies:
-      '@protobuf-ts/runtime': 2.9.4
+      '@protobuf-ts/runtime': 2.11.1
       typescript: 3.9.10
 
   '@protobuf-ts/plugin@2.9.4':
     dependencies:
       '@protobuf-ts/plugin-framework': 2.9.4
       '@protobuf-ts/protoc': 2.9.4
-      '@protobuf-ts/runtime': 2.9.4
+      '@protobuf-ts/runtime': 2.11.1
       '@protobuf-ts/runtime-rpc': 2.9.4
       typescript: 3.9.10
 
@@ -235,9 +236,9 @@ snapshots:
 
   '@protobuf-ts/runtime-rpc@2.9.4':
     dependencies:
-      '@protobuf-ts/runtime': 2.9.4
+      '@protobuf-ts/runtime': 2.11.1
 
-  '@protobuf-ts/runtime@2.9.4': {}
+  '@protobuf-ts/runtime@2.11.1': {}
 
   '@protobufjs/aspromise@1.1.2': {}
 
