@@ -38,13 +38,14 @@ importers:
         version: 22.10.10
       typescript:
         specifier: ^5.7.3
-        version: 5.7.3
+        version: 5.9.3
 
 packages:
 
   '@faker-js/faker@9.4.0':
     resolution: {integrity: sha512-85+k0AxaZSTowL0gXp8zYWDIrWclTbRPg/pm/V0dSFZ6W6D4lhcG3uuZl4zLsEKfEvs69xDbLN2cHQudwp95JA==}
     engines: {node: '>=18.0.0', npm: '>=9.0.0'}
+    deprecated: Please update to a newer version
 
   '@grpc/grpc-js@1.12.5':
     resolution: {integrity: sha512-d3iiHxdpg5+ZcJ6jnDSOT8Z0O0VMVGy34jAnYLUX8yd36b1qn8f1TwOA/Lc7TsOh03IkPJ38eGI5qD2EjNkoEA==}
@@ -176,8 +177,8 @@ packages:
     engines: {node: '>=4.2.0'}
     hasBin: true
 
-  typescript@5.7.3:
-    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
+  typescript@5.9.3:
+    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -329,7 +330,7 @@ snapshots:
 
   typescript@3.9.10: {}
 
-  typescript@5.7.3: {}
+  typescript@5.9.3: {}
 
   undici-types@6.20.0: {}
 
