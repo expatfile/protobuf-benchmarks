@@ -37,8 +37,8 @@ importers:
         specifier: ^1.12.4
         version: 1.12.4
       ts-proto:
-        specifier: ^1.181.2
-        version: 1.181.2
+        specifier: ^2.0.0
+        version: 2.11.8
       typescript:
         specifier: ^5.7.3
         version: 5.7.3
@@ -52,6 +52,9 @@ packages:
 
   '@assemblyscript/loader@0.19.23':
     resolution: {integrity: sha512-ulkCYfFbYj01ie1MDOyxv2F6SpRN1TOj7fQxbP07D6HmeR+gr2JLSmINKjga2emB+b1L2KGrFKBTc+e00p54nw==}
+
+  '@bufbuild/protobuf@2.12.0':
+    resolution: {integrity: sha512-B/XlCaFIP8LOwzo+bz5uFzATYokcwCKQcghqnlfwSmM5eX/qTkvDBnDPs+gXtX/RyjxJ4DRikECcPJbyALA8FA==}
 
   '@clinic/bubbleprof@10.0.0':
     resolution: {integrity: sha512-7Y0uYO4cz7+Y1advV891uMJLXbZMIriLsV1IHSSVJxmf8tEFm8vogKi/GdYyi4CY0D5heuqOFze/WNrv+U3LRw==}
@@ -83,6 +86,7 @@ packages:
   '@faker-js/faker@9.4.0':
     resolution: {integrity: sha512-85+k0AxaZSTowL0gXp8zYWDIrWclTbRPg/pm/V0dSFZ6W6D4lhcG3uuZl4zLsEKfEvs69xDbLN2cHQudwp95JA==}
     engines: {node: '>=18.0.0', npm: '>=9.0.0'}
+    deprecated: Please update to a newer version
 
   '@grpc/grpc-js@1.12.5':
     resolution: {integrity: sha512-d3iiHxdpg5+ZcJ6jnDSOT8Z0O0VMVGy34jAnYLUX8yd36b1qn8f1TwOA/Lc7TsOh03IkPJ38eGI5qD2EjNkoEA==}
@@ -1074,7 +1078,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   global-dirs@3.0.1:
     resolution: {integrity: sha512-NBcGGFbBA9s1VzD41QXDG+3++t9Mn5t1FpLdhESY6oKY4gYTFpX4wO3sqGUa0Srjtbfj3szX0RnemmrVRUdULA==}
@@ -2266,6 +2270,7 @@ packages:
   tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   terser@4.8.1:
     resolution: {integrity: sha512-4GnLC0x667eJG0ewJTa6z/yXrbLGv80D9Ru6HIpCQmO+Q4PfEtBFi0ObSckqwL6VyQv/7ENJieXHo2ANmdQwgw==}
@@ -2321,14 +2326,14 @@ packages:
   transform-ast@2.4.4:
     resolution: {integrity: sha512-AxjeZAcIOUO2lev2GDe3/xZ1Q0cVGjIMk5IsriTy8zbWlsEnjeB025AhkhBJHoy997mXpLd4R+kRbvnnQVuQHQ==}
 
-  ts-poet@6.9.0:
-    resolution: {integrity: sha512-roe6W6MeZmCjRmppyfOURklO5tQFQ6Sg7swURKkwYJvV7dbGCrK28um5+51iW3twdPRKtwarqFAVMU6G1mvnuQ==}
+  ts-poet@6.12.0:
+    resolution: {integrity: sha512-xo+iRNMWqyvXpFTaOAvLPA5QAWO6TZrSUs5s4Odaya3epqofBu/fMLHEWl8jPmjhA0s9sgj9sNvF1BmaQlmQkA==}
 
-  ts-proto-descriptors@1.16.0:
-    resolution: {integrity: sha512-3yKuzMLpltdpcyQji1PJZRfoo4OJjNieKTYkQY8pF7xGKsYz/RHe3aEe4KiRxcinoBmnEhmuI+yJTxLb922ULA==}
+  ts-proto-descriptors@2.1.0:
+    resolution: {integrity: sha512-S5EZYEQ6L9KLFfjSRpZWDIXDV/W7tAj8uW7pLsihIxyr62EAVSiKuVPwE8iWnr849Bqa53enex1jhDUcpgquzA==}
 
-  ts-proto@1.181.2:
-    resolution: {integrity: sha512-knJ8dtjn2Pd0c5ZGZG8z9DMiD4PUY8iGI9T9tb8DvGdWRMkLpf0WcPO7G+7cmbZyxvNTAG6ci3fybEaFgMZIvg==}
+  ts-proto@2.11.8:
+    resolution: {integrity: sha512-+5hzECnyVB33jxjG1BIdzAHcRBm7hjnm8womdJVp2A7xJWihP0drHHVsXYTr9i/LpWNGfh80I+AVVNzFM5AwJw==}
     hasBin: true
 
   tslib@1.14.1:
@@ -2444,11 +2449,12 @@ packages:
 
   uuid@3.4.0:
     resolution: {integrity: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==}
-    deprecated: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   uuid@8.3.2:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   varint@5.0.0:
@@ -2585,6 +2591,8 @@ snapshots:
       - supports-color
 
   '@assemblyscript/loader@0.19.23': {}
+
+  '@bufbuild/protobuf@2.12.0': {}
 
   '@clinic/bubbleprof@10.0.0':
     dependencies:
@@ -5286,21 +5294,20 @@ snapshots:
       merge-source-map: 1.0.4
       nanobench: 2.1.1
 
-  ts-poet@6.9.0:
+  ts-poet@6.12.0:
     dependencies:
       dprint-node: 1.0.8
 
-  ts-proto-descriptors@1.16.0:
+  ts-proto-descriptors@2.1.0:
     dependencies:
-      long: 5.2.4
-      protobufjs: 7.4.0
+      '@bufbuild/protobuf': 2.12.0
 
-  ts-proto@1.181.2:
+  ts-proto@2.11.8:
     dependencies:
+      '@bufbuild/protobuf': 2.12.0
       case-anything: 2.1.13
-      protobufjs: 7.4.0
-      ts-poet: 6.9.0
-      ts-proto-descriptors: 1.16.0
+      ts-poet: 6.12.0
+      ts-proto-descriptors: 2.1.0
 
   tslib@1.14.1: {}
 
