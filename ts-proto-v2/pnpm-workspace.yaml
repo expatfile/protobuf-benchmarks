@@ -1,0 +1,16 @@
+# Not a workspace root — this file only carries pnpm settings for this
+# benchmark directory. Each directory installs independently so the four
+# dependency trees stay isolated from one another.
+
+allowBuilds:
+  # Postinstall fetches the protoc binary + plugins that gen_grpc.sh runs.
+  grpc-tools: true
+  protobufjs: true
+  # Transitive dev dep of clinic; its postinstall only prints a funding notice.
+  es5-ext: false
+
+# @bufbuild/protobuf 2.14.0 is the performance release this benchmark exists to
+# measure, and it was published 2026-08-13 — inside pnpm's default minimum
+# release age. Excluding it here is deliberate, not an oversight.
+minimumReleaseAgeExclude:
+  - '@bufbuild/protobuf@2.14.0'

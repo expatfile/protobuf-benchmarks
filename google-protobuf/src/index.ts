@@ -12,8 +12,13 @@ async function runTestCalls(
   const server = await startServer(port);
   const client = createClient(port);
 
+  // Keep these options identical across every benchmark directory —
+  // the cross-library comparison is only meaningful if the ruler is the same.
   const bench = new Bench({
     time: 10000,
+    warmup: true,
+    warmupTime: 1000,
+    throws: true, // a silently failing RPC would otherwise report a great score
   });
 
   bench.add(testName, async () => {

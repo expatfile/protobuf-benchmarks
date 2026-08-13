@@ -11,6 +11,12 @@
     "lib": ["esnext"],
     "module": "commonjs",
     "moduleResolution": "node",
+    // These stay on CommonJS deliberately. google-protobuf's codegen
+    // (grpc_tools_node_protoc_ts) emits CommonJS, so switching the other
+    // directories to ESM would leave the four harnesses structurally different
+    // and make the comparison harder to trust. tinybench 6 and faker 10 are
+    // ESM-only, but Node's require(esm) loads them fine. Revisit at TypeScript 7.
+    "ignoreDeprecations": "6.0",
     "noEmitHelpers": true,
     "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,
@@ -24,7 +30,10 @@
     "outDir": "build",
     "incremental": true,
     "sourceMap": true,
-    "inlineSources": true
+    "inlineSources": true,
+    // tinybench's types reference DOMHighResTimeStamp, which isn't in lib:esnext.
+    // Also keeps all four benchmark tsconfigs aligned.
+    "skipLibCheck": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "**/__mocks__/*.ts", "**/*.spec.ts"]
