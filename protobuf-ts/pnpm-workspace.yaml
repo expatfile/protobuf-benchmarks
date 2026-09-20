@@ -1,5 +1,5 @@
 # Not a workspace root — this file only carries pnpm settings for this
-# benchmark directory. Each directory installs independently so the four
+# benchmark directory. Each directory installs independently so the five
 # dependency trees stay isolated from one another.
 
 allowBuilds:

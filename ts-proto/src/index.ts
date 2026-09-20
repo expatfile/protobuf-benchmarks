@@ -2,6 +2,7 @@ import { Bench } from "tinybench";
 import { startServer } from "./server";
 import { createClient, readInputsCall, updateInputsCall } from "./client";
 import { TestServiceClient } from "./proto/test";
+import { verifyRoundTrip } from "./verify";
 
 async function runTestCalls(
   testName: string,
@@ -35,6 +36,8 @@ async function runTestCalls(
 }
 
 async function main() {
+  await verifyRoundTrip(50051);
+
   await runTestCalls("readInputs", readInputsCall);
   await runTestCalls("updateInputs", updateInputsCall);
 
