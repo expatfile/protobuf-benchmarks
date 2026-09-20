@@ -1,7 +1,11 @@
 import { Bench } from "tinybench";
 import { startServer } from "./server";
-import { createClient, readInputsCall, updateInputsCall } from "./client";
-import { TestServiceClient } from "./proto/test";
+import {
+  TestServiceClient,
+  createClient,
+  readInputsCall,
+  updateInputsCall,
+} from "./client";
 import { verifyRoundTrip } from "./verify";
 
 async function runTestCalls(

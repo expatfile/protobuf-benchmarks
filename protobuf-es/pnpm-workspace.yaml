@@ -1,0 +1,11 @@
+# Not a workspace root — this file only carries pnpm settings for this
+# benchmark directory. Each directory installs independently so the five
+# dependency trees stay isolated from one another.
+
+allowBuilds:
+  # Its postinstall only swaps the JS launcher for the native binary to save a
+  # process spawn; the launcher works without it, so no script needs to run.
+  '@bufbuild/buf': false
+  # Transitive dep of @grpc/grpc-js; allowed in every directory so the five
+  # trees are installed the same way.
+  protobufjs: true

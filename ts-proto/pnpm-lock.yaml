@@ -9,39 +9,39 @@ importers:
   .:
     dependencies:
       '@faker-js/faker':
-        specifier: ^10.5.0
-        version: 10.5.0
+        specifier: 10.6.0
+        version: 10.6.0
       '@grpc/grpc-js':
-        specifier: ^1.14.4
-        version: 1.14.4
+        specifier: 1.14.5
+        version: 1.14.5
       protobufjs:
-        specifier: ^8.7.2
-        version: 8.7.2
+        specifier: 8.8.0
+        version: 8.8.0
       tinybench:
-        specifier: ^6.1.3
-        version: 6.1.3
+        specifier: 6.2.0
+        version: 6.2.0
       tslib:
-        specifier: ^2.8.1
+        specifier: 2.8.1
         version: 2.8.1
     devDependencies:
       '@types/microtime':
-        specifier: ^2.1.2
+        specifier: 2.1.2
         version: 2.1.2
       '@types/node':
-        specifier: ^26.2.0
-        version: 26.2.0
+        specifier: 26.6.2
+        version: 26.6.2
       clinic:
-        specifier: ^13.0.0
+        specifier: 13.0.0
         version: 13.0.0(supports-color@7.2.0)
       grpc-tools:
-        specifier: ^1.13.1
+        specifier: 1.13.1
         version: 1.13.1(supports-color@7.2.0)
       ts-proto:
-        specifier: ^1.181.2
+        specifier: 1.181.2
         version: 1.181.2
       typescript:
-        specifier: ^6.0.3
-        version: 6.0.3
+        specifier: 7.0.2
+        version: 7.0.2
 
 packages:
 
@@ -80,12 +80,12 @@ packages:
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
     engines: {node: '>=0.1.90'}
 
-  '@faker-js/faker@10.5.0':
-    resolution: {integrity: sha512-bsxD8WLS5lIj7aaoCx1YJkktqYj5vlBUE6HWzu2Q51ksrGJ0H737ECCKlFU7Yf8Br45z9t99frBp/J7kzbMPAg==}
+  '@faker-js/faker@10.6.0':
+    resolution: {integrity: sha512-3RQHgEtvL1Frl/d1cSreo7qhJ3Gk1OdNUai/CtZ8G+wYeRQnJih3s9xJ9/kgYekPQRdwgh0HXRPqMlzWGwivIQ==}
     engines: {node: ^20.19.0 || ^22.13.0 || ^23.5.0 || >=24.0.0, npm: '>=10'}
 
-  '@grpc/grpc-js@1.14.4':
-    resolution: {integrity: sha512-k9Dj3DV/itK9D06Y8f190Qgop7/Ui+D0njFV3LHMPwPT75DpXLQohE9Wmz0QElrJnzsjB7KPWiKJbOl7IPDArQ==}
+  '@grpc/grpc-js@1.14.5':
+    resolution: {integrity: sha512-7VZM+SVdEcUUqSQeNI3zM8Qs/BhQKZndPo2h5VkYkAM8Iz0wJIa8mKV5ekQGqG8UUsnkQ0NMxIxwkIHYvj0qOw==}
     engines: {node: '>=12.10.0'}
 
   '@grpc/proto-loader@0.8.1':
@@ -178,11 +178,11 @@ packages:
   '@types/microtime@2.1.2':
     resolution: {integrity: sha512-d5odaV/0jPwfehN1t+y7+TcbGxECQLtl7mVETpMaYA0SnlhyKQKgWPCRetbSJVP7i2Kzx8CuTDgDs2kjS1MCOw==}
 
-  '@types/node@22.10.10':
-    resolution: {integrity: sha512-X47y/mPNzxviAGY5TcYPtYL8JsY3kAq2n8fMmKoRCxq/c4v4pyGNCzM2R6+M5/umG4ZfHuT+sgqDYqWc9rJ6ww==}
-
   '@types/node@26.2.0':
     resolution: {integrity: sha512-5IviulTZeRNp2vAJ514cc/HUlY5nZ9fCbq9DMyC52BrhFZACo3nI0R7qBxhQmo/d27NFe96ur/b7Wwxklda+kg==}
+
+  '@types/node@26.6.2':
+    resolution: {integrity: sha512-X1P21scMv4zGKLYqjdGjaKa7COa0RKVYYZZN/NfvLQ1JegxFhdhpZG/Lyn8AXx6CDUavKAd11v6BvfpkDByK8g==}
 
   '@types/offscreencanvas@2019.3.0':
     resolution: {integrity: sha512-esIJx9bQg+QYF0ra8GnvfianIY8qWB0GBx54PK5Eps6m+xTj86KLavHv6qDhzKcu5UUOgNfJ2pWaIIV7TRUd9Q==}
@@ -195,6 +195,126 @@ packages:
 
   '@types/webgl-ext@0.0.30':
     resolution: {integrity: sha512-LKVgNmBxN0BbljJrVUwkxwRYqzsAEPcZOe6S2T6ZaBDIrFp0qu4FNlpc5sM1tGbXUYFgdVQIoeLk1Y1UoblyEg==}
+
+  '@typescript/typescript-aix-ppc64@7.0.2':
+    resolution: {integrity: sha512-MTKKkWB7p/0E9xi1d1tHtZ5PiLkGEMIq88pK2CubZjOsLtYTLqhgIgi6zepFa+9GHZ6h05NMCkQxGKiPXMxXtQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [ppc64]
+    os: [aix]
+
+  '@typescript/typescript-darwin-arm64@7.0.2':
+    resolution: {integrity: sha512-gowzar9MwS/aRWp6f3a4KUqzRjAZjOsmGNCM6LcTgXum+dBfgsBVMN+AgvOCCbguXyick6LJhpBszxMebJ8syA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@typescript/typescript-darwin-x64@7.0.2':
+    resolution: {integrity: sha512-SZ9xZInqApNlNGc9s0W1VSsktYSOe9cFqNOIqmN1Gs8SmkjKZYFt017G4VwPxASInODuAdbTW7sXiFUf893RgA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@typescript/typescript-freebsd-arm64@7.0.2':
+    resolution: {integrity: sha512-W5NH4y/J0plIIS5b2xvTEkU7JFxyqdMAOgf+Ilhl0vHQXKO5dZoxd+C/jEtq56c4F3wk71RB4BMRQ2XdI+bwYQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [freebsd]
+
+  '@typescript/typescript-freebsd-x64@7.0.2':
+    resolution: {integrity: sha512-UMGDx5sTpzNw3WiPebH7l90IWfJggEd+egHt/q6p7/Cm3zqoV7VxkGXt+3DxPIw8CcmvAB0j3sVVfbhX+M4Tpw==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@typescript/typescript-linux-arm64@7.0.2':
+    resolution: {integrity: sha512-Qh4eU4/y3yDjnfjjyPYihMj5/ODIlmt+Bzu17OI+fiSRDW57QmU5SiN63exPRNJPKUzcc1INa1NXdrJ+MqHjUQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@typescript/typescript-linux-arm@7.0.2':
+    resolution: {integrity: sha512-gffT3xPz9sR7j/YJExkyPntrI0P2EP9XbOyWzth2/Gs0RstK+90RBcO0ncXoXy/beYll1SXw846Nf2zdnEz0QQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm]
+    os: [linux]
+
+  '@typescript/typescript-linux-loong64@7.0.2':
+    resolution: {integrity: sha512-uEHck9i8hoAzXPiYRib1O7miOnz23SxIeVl6F4LXox+qov1K35jHcEW6VHKvZI+pyvl7fZEP4MCU5LYvIq1GuQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [loong64]
+    os: [linux]
+
+  '@typescript/typescript-linux-mips64el@7.0.2':
+    resolution: {integrity: sha512-R4KvAMnE43W5Qeqb0Ly56O3mWMWIAgsMyz36DCaycd5nbg/9kzm0liw3JocfRqyJY0KPmzFjbswozXyW0DnIYA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [mips64el]
+    os: [linux]
+
+  '@typescript/typescript-linux-ppc64@7.0.2':
+    resolution: {integrity: sha512-DORx5b3sd/4S7eayxm4FQv+A7CrkUIGRaHiwI8oiHTAI1fAPWhF4J0vAlkC8biAlHSVVwxMQ3tjZ2/DVbnQiiA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [ppc64]
+    os: [linux]
+
+  '@typescript/typescript-linux-riscv64@7.0.2':
+    resolution: {integrity: sha512-wf0jqEDOjrPRnKwYRyyJDRo11KMbvMFrU+q4zqKyChODBzvlkbhNQfKvLxQCcwTpdDaXSHZTVuh0JoCrKCUMHQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [riscv64]
+    os: [linux]
+
+  '@typescript/typescript-linux-s390x@7.0.2':
+    resolution: {integrity: sha512-IkwJc3L7yhytWd/ewjyxNDfOmswCm9GWMJT/ue/dU4aZNbwZeYAetq42VyLmsmSjvoX7z74X6ZaYCtzAr0EuGw==}
+    engines: {node: '>=16.20.0'}
+    cpu: [s390x]
+    os: [linux]
+
+  '@typescript/typescript-linux-x64@7.0.2':
+    resolution: {integrity: sha512-EYdf2cNg7rgCWJnxCdJ+F3V39O8ihb37eHAu1LK8oAFizgTQbPOK7zHHXbPt8rX24COqODXeI3sIf0fCXG7H/A==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [linux]
+
+  '@typescript/typescript-netbsd-arm64@7.0.2':
+    resolution: {integrity: sha512-+polYF4MF04aPpO5FTkHran9yUQDSXqy5GiSDKpsll5jy3l3+g9QLhpf39T+ePtefhXLOGrLl0QIjkQP6VnelA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [netbsd]
+
+  '@typescript/typescript-netbsd-x64@7.0.2':
+    resolution: {integrity: sha512-8YIT0EHM/3dq10ZOVF/A7pc/YSMtbcecct4rWtexrnSCHOPcpC2KTLXfTCR6vDpnSiY12heNb1GiN/wu+T/FyA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [netbsd]
+
+  '@typescript/typescript-openbsd-arm64@7.0.2':
+    resolution: {integrity: sha512-APT8+ClYnuYm1u9+kgGXoMj2VzWzcymwh2gNSQVySHfkRDGOTVkoWLjCmOQSaO+PoqQ57B0flRp9SA+7GnnkzQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [openbsd]
+
+  '@typescript/typescript-openbsd-x64@7.0.2':
+    resolution: {integrity: sha512-yX7s+Q0Dln0Dt9tEzZsAjXXR/+ytBM7AlglaqyeMPxQszJ1JhlJdZ6jLA+IzldHtflX81em7lDao1xXu+aRRkg==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [openbsd]
+
+  '@typescript/typescript-sunos-x64@7.0.2':
+    resolution: {integrity: sha512-dLJDGaLZ1D4HPQn62u1n8mBDkJREwMsAkCdkwd4Ieqw+x3TUyTsqY0YiBCtE6H6OzzgGk3iuZ3vFWRS+E8/d1g==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [sunos]
+
+  '@typescript/typescript-win32-arm64@7.0.2':
+    resolution: {integrity: sha512-Gyl1Vy6OsWesLzmq+EP0Fb7b4Nid5232AvcA2SFcdYreldpNtYFFofPjnt62y9hQy7VTaZp65ICJjuAQRaVcIQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@typescript/typescript-win32-x64@7.0.2':
+    resolution: {integrity: sha512-0BQ3HkAHHlKLSp1qRvf3SUhGpGsDuhB/jgFw75guyqbxJqEaS0Cw/VFO8i2nHglJUzQCRtMMR/IBAKE3ETMC4g==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [win32]
 
   '@webgpu/types@0.1.16':
     resolution: {integrity: sha512-9E61voMP4+Rze02jlTXud++Htpjyyk8vw5Hyw9FGRrmhHQg2GqbuOfwf5Klrb8vTxc2XWI3EfO7RUHMpxTj26A==}
@@ -1885,8 +2005,8 @@ packages:
     resolution: {integrity: sha512-/FPD0nUc9jH6rfFjji9IBqOz4pcSE3CsT1m7Ep6Mdb0LxSUMj8hgl6GomOvZzpNpAqqGaXA0P3VSrZLFzIhQrw==}
     engines: {node: '>=12.0.0'}
 
-  protobufjs@8.7.2:
-    resolution: {integrity: sha512-oTVHV+oelUBtiu5iTuTNNZ0eLYsXSMxry4cgr30mayNkgIZL6qZ0IOQVPuSWGcyAaXKl/XgqwWHIC3a0khYVBA==}
+  protobufjs@8.8.0:
+    resolution: {integrity: sha512-N3xhQ5yyBx3vQq4gubBfASzYhJGNzeDbjqBpu61g7UVylsN/qyffU96TKWD3GbbLOKF82VGNRNvv1+BFgE31Eg==}
     engines: {node: '>=12.0.0'}
 
   protocol-buffers-encodings@1.2.0:
@@ -2293,8 +2413,8 @@ packages:
     resolution: {integrity: sha512-wMctrWD2HZZLuIlchlkE2dfXJh7J2KDI9Dwl+2abPYg0mswQHfOAyQW3jJg1pY5VfttSINZuKcXoB3FGypVklA==}
     engines: {node: '>=8'}
 
-  tinybench@6.1.3:
-    resolution: {integrity: sha512-8k25iNSZHnzkjp3nrpEmx6YkrTNs41PzOHYc28DR5Z2l/CId/Nzw+Ume/41jCeDDmCUMPuK5GkQ/VxJaJ2P6Qg==}
+  tinybench@6.2.0:
+    resolution: {integrity: sha512-78U2TlB2CnVenajOFzf3BKSm0J6oz5L0NV7g32LCPccvYc0lbWvys4d3uUUCS2B1N8PAf2+aekR8i1KbC3HO7Q==}
     engines: {node: '>=20.0.0'}
 
   tmp@0.0.33:
@@ -2376,9 +2496,9 @@ packages:
   typedarray@0.0.6:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
 
-  typescript@6.0.3:
-    resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
-    engines: {node: '>=14.17'}
+  typescript@7.0.2:
+    resolution: {integrity: sha512-8FYau96o3NKOhbjKi/qNvG/W5jhzxkbdm5sj9AbZ/5T5sWqn3hJgLfGx27sRKZWTvyzCP8dLRBTf5tBTSRVUNA==}
+    engines: {node: '>=16.20.0'}
     hasBin: true
 
   umd@3.0.3:
@@ -2389,11 +2509,11 @@ packages:
     resolution: {integrity: sha512-pJOW4nxjlmfwKApE4zvxLScM/njmwj/DiUBv7EabwE4O8kRUy+HIwxQtZLBPll/jx1LJyBcqNfB3/cpv9EZwOw==}
     hasBin: true
 
-  undici-types@6.20.0:
-    resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
-
   undici-types@8.3.0:
     resolution: {integrity: sha512-j375ScV60dom+YkPFIfTLcOiPxkN/buHz5GobjLhixFuANaNs3C9l4GmrWqejgXWJ7BbJcFYpTEUkS1Ge8bpZQ==}
+
+  undici-types@8.9.0:
+    resolution: {integrity: sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==}
 
   uniq@1.0.1:
     resolution: {integrity: sha512-Gw+zz50YNKPDKXs+9d+aKAjVwpjNwqzvNpLigIruT4HA9lMZNdMqs9x07kKHB/L9WRzqp4+DlTU5s4wG2esdoA==}
@@ -2709,9 +2829,9 @@ snapshots:
   '@colors/colors@1.5.0':
     optional: true
 
-  '@faker-js/faker@10.5.0': {}
+  '@faker-js/faker@10.6.0': {}
 
-  '@grpc/grpc-js@1.14.4':
+  '@grpc/grpc-js@1.14.5':
     dependencies:
       '@grpc/proto-loader': 0.8.1
       '@js-sdsl/ordered-map': 4.4.2
@@ -2719,7 +2839,7 @@ snapshots:
   '@grpc/proto-loader@0.8.1':
     dependencies:
       lodash.camelcase: 4.3.0
-      long: 5.2.4
+      long: 5.3.2
       protobufjs: 7.6.5
       yargs: 17.7.2
 
@@ -2807,29 +2927,89 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 26.2.0
+      '@types/node': 26.6.2
 
   '@types/long@4.0.2': {}
 
   '@types/microtime@2.1.2': {}
 
-  '@types/node@22.10.10':
-    dependencies:
-      undici-types: 6.20.0
-
   '@types/node@26.2.0':
     dependencies:
       undici-types: 8.3.0
+
+  '@types/node@26.6.2':
+    dependencies:
+      undici-types: 8.9.0
 
   '@types/offscreencanvas@2019.3.0': {}
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 26.2.0
+      '@types/node': 26.6.2
 
   '@types/seedrandom@2.4.34': {}
 
   '@types/webgl-ext@0.0.30': {}
+
+  '@typescript/typescript-aix-ppc64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-darwin-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-darwin-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-freebsd-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-freebsd-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-arm@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-loong64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-mips64el@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-ppc64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-riscv64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-s390x@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-netbsd-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-netbsd-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-openbsd-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-openbsd-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-sunos-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-win32-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-win32-x64@7.0.2':
+    optional: true
 
   '@webgpu/types@0.1.16': {}
 
@@ -4732,7 +4912,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 26.2.0
+      '@types/node': 26.6.2
       long: 5.2.4
 
   protobufjs@7.6.5:
@@ -4746,10 +4926,10 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.2
-      '@types/node': 22.10.10
+      '@types/node': 26.2.0
       long: 5.3.2
 
-  protobufjs@8.7.2:
+  protobufjs@8.8.0:
     dependencies:
       long: 5.3.2
 
@@ -5249,7 +5429,7 @@ snapshots:
 
   timestring@6.0.0: {}
 
-  tinybench@6.1.3: {}
+  tinybench@6.2.0: {}
 
   tmp@0.0.33:
     dependencies:
@@ -5341,7 +5521,28 @@ snapshots:
 
   typedarray@0.0.6: {}
 
-  typescript@6.0.3: {}
+  typescript@7.0.2:
+    optionalDependencies:
+      '@typescript/typescript-aix-ppc64': 7.0.2
+      '@typescript/typescript-darwin-arm64': 7.0.2
+      '@typescript/typescript-darwin-x64': 7.0.2
+      '@typescript/typescript-freebsd-arm64': 7.0.2
+      '@typescript/typescript-freebsd-x64': 7.0.2
+      '@typescript/typescript-linux-arm': 7.0.2
+      '@typescript/typescript-linux-arm64': 7.0.2
+      '@typescript/typescript-linux-loong64': 7.0.2
+      '@typescript/typescript-linux-mips64el': 7.0.2
+      '@typescript/typescript-linux-ppc64': 7.0.2
+      '@typescript/typescript-linux-riscv64': 7.0.2
+      '@typescript/typescript-linux-s390x': 7.0.2
+      '@typescript/typescript-linux-x64': 7.0.2
+      '@typescript/typescript-netbsd-arm64': 7.0.2
+      '@typescript/typescript-netbsd-x64': 7.0.2
+      '@typescript/typescript-openbsd-arm64': 7.0.2
+      '@typescript/typescript-openbsd-x64': 7.0.2
+      '@typescript/typescript-sunos-x64': 7.0.2
+      '@typescript/typescript-win32-arm64': 7.0.2
+      '@typescript/typescript-win32-x64': 7.0.2
 
   umd@3.0.3: {}
 
@@ -5353,9 +5554,9 @@ snapshots:
       simple-concat: 1.0.1
       xtend: 4.0.2
 
-  undici-types@6.20.0: {}
-
   undici-types@8.3.0: {}
+
+  undici-types@8.9.0: {}
 
   uniq@1.0.1: {}
 
